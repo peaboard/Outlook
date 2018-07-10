@@ -81,3 +81,10 @@ function restartTimer()
 		changeImage();
 	}, timer);
 }
+
+function makeFullscreen()
+{
+	if (screenfull.enabled) {
+	screenfull.request();
+	}
+}
