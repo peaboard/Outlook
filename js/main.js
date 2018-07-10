@@ -19,6 +19,8 @@ $(document).ready(function(){
 
 
 
+
+
 	//the timer
 	changeImage();
 
@@ -88,3 +90,33 @@ function makeFullscreen()
 	screenfull.request();
 	}
 }
+
+$(function () {
+    var timer;
+    var fadeInBuffer = false;
+    $(document).mousemove(function () {
+        if (!fadeInBuffer) {
+            if (timer) {
+                console.log("clearTimer");
+                clearTimeout(timer);
+                timer = 0;
+            }
+
+                console.log("fadeIn");
+            $('html').css({
+                cursor: ''
+            });
+        } else {
+            fadeInBuffer = false;
+        }
+
+
+        timer = setTimeout(function () {
+            console.log("fadeout");
+            $('html').css({
+                cursor: 'none'
+            });
+            fadeInBuffer = true;
+        }, 500)
+    });
+});
