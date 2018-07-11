@@ -14,7 +14,7 @@
 		<div class="background">
 			<!-- make this better -->
 			<img id="loader" src="loading.GIF"></img>
-			<img id="mainImage" onclick="changeImage()" src=""></img>
+			<img id="mainImage" ondblclick="makeFullscreen()" onclick="changeImage()" src=""></img>
 			<div class="message"><noscript>Please enable javasript to start slideshow</noscript></div>
 		</div>
 
@@ -32,7 +32,11 @@
 
 					<input type="checkbox" id="blur" name="blur" value="Car">Blur Images</input><br><br>
 
-					<span>Tip : Click on image to skip</span>
+					<span>
+						Tip : Click on image to skip
+						 			Double click for FullScreen
+									Move cursor on this and away to hide settings
+					</span>
 
 					<h4>Images from <a href="http://unsplash.com">Unsplash</a></h4>
 

@@ -87,7 +87,8 @@ function restartTimer()
 function makeFullscreen()
 {
 	if (screenfull.enabled) {
-	screenfull.request();
+	//screenfull.request();
+	screenfull.toggle();
 	}
 }
 
