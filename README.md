@@ -1,10 +1,9 @@
 # Outlook
 
 Try it out [here](https://peaboard.github.io/Outlook/)
+Forked from the project [Outset](https://github.com/deucks/Outset) Copyright 2014 Raajit Sharma
 
 ## An Exploration Into Active Ambient Environments
-
-## Forked from the project [Outset](https://github.com/deucks/Outset) Copyright 2014 Raajit Sharma
 
 ### Concept 
 
